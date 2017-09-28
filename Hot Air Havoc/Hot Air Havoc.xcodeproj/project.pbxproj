@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE35A49E1D14DC970087196C /* greenbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EE35A49D1D14DC970087196C /* greenbackground.png */; };
+		EE6EFD6D1A4D0AD00001B50A /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6EFD6C1A4D0AD00001B50A /* HomeController.m */; };
+		EE6EFD731A4D11C40001B50A /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6EFD721A4D11C40001B50A /* ninja.png */; };
+		EE8C7B651D24A15800506893 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8C7B641D24A15800506893 /* GameKit.framework */; };
+		EEB43AC21A5C585000D51DF8 /* gobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB43AC11A5C585000D51DF8 /* gobutton.png */; };
+		EEBB2CA41A22E9C900033D4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBB2CA31A22E9C900033D4A /* main.m */; };
+		EEBB2CA71A22E9C900033D4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBB2CA61A22E9C900033D4A /* AppDelegate.m */; };
+		EEBB2CAA1A22E9C900033D4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBB2CA91A22E9C900033D4A /* ViewController.m */; };
+		EEBB2CAD1A22E9C900033D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CAB1A22E9C900033D4A /* Main.storyboard */; };
+		EEBB2CAF1A22E9C900033D4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CAE1A22E9C900033D4A /* Images.xcassets */; };
+		EEBB2CB21A22E9C900033D4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CB01A22E9C900033D4A /* LaunchScreen.xib */; };
+		EEBB2CBE1A22E9C900033D4A /* Hot_Air_HavocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBB2CBD1A22E9C900033D4A /* Hot_Air_HavocTests.m */; };
+		EEBB2CC81A22EA0500033D4A /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CC71A22EA0500033D4A /* ball.png */; };
+		EEBB2CCA1A22F59800033D4A /* colbysky.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CC91A22F59800033D4A /* colbysky.png */; };
+		EEBB2CD01A22F96800033D4A /* dart.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CCF1A22F96800033D4A /* dart.png */; };
+		EEBB2CD21A22F97B00033D4A /* hotair.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBB2CD11A22F97B00033D4A /* hotair.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEBB2CB81A22E9C900033D4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEBB2C961A22E9C900033D4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBB2C9D1A22E9C900033D4A;
+			remoteInfo = "Hot Air Havoc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE35A49D1D14DC970087196C /* greenbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenbackground.png; sourceTree = "<group>"; };
+		EE6EFD6B1A4D0AD00001B50A /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		EE6EFD6C1A4D0AD00001B50A /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		EE6EFD721A4D11C40001B50A /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja.png; sourceTree = "<group>"; };
+		EE8C7B641D24A15800506893 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		EEB43AC11A5C585000D51DF8 /* gobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gobutton.png; sourceTree = "<group>"; };
+		EEBB2C9E1A22E9C900033D4A /* Hot Air Havoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Air Havoc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBB2CA21A22E9C900033D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBB2CA31A22E9C900033D4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEBB2CA51A22E9C900033D4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEBB2CA61A22E9C900033D4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEBB2CA81A22E9C900033D4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEBB2CA91A22E9C900033D4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEBB2CAC1A22E9C900033D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBB2CAE1A22E9C900033D4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEBB2CB11A22E9C900033D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEBB2CB71A22E9C900033D4A /* Hot Air HavocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot Air HavocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBB2CBC1A22E9C900033D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBB2CBD1A22E9C900033D4A /* Hot_Air_HavocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hot_Air_HavocTests.m; sourceTree = "<group>"; };
+		EEBB2CC71A22EA0500033D4A /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		EEBB2CC91A22F59800033D4A /* colbysky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colbysky.png; sourceTree = "<group>"; };
+		EEBB2CCF1A22F96800033D4A /* dart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dart.png; sourceTree = "<group>"; };
+		EEBB2CD11A22F97B00033D4A /* hotair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotair.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEBB2C9B1A22E9C900033D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8C7B651D24A15800506893 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBB2CB41A22E9C900033D4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEBB2C951A22E9C900033D4A = {
+			isa = PBXGroup;
+			children = (
+				EEBB2CA01A22E9C900033D4A /* Hot Air Havoc */,
+				EEBB2CBA1A22E9C900033D4A /* Hot Air HavocTests */,
+				EEBB2C9F1A22E9C900033D4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBB2C9F1A22E9C900033D4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB2C9E1A22E9C900033D4A /* Hot Air Havoc.app */,
+				EEBB2CB71A22E9C900033D4A /* Hot Air HavocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBB2CA01A22E9C900033D4A /* Hot Air Havoc */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB2CA51A22E9C900033D4A /* AppDelegate.h */,
+				EEBB2CA61A22E9C900033D4A /* AppDelegate.m */,
+				EEBB2CA81A22E9C900033D4A /* ViewController.h */,
+				EEBB2CA91A22E9C900033D4A /* ViewController.m */,
+				EEBB2CAB1A22E9C900033D4A /* Main.storyboard */,
+				EEBB2CAE1A22E9C900033D4A /* Images.xcassets */,
+				EEBB2CB01A22E9C900033D4A /* LaunchScreen.xib */,
+				EEBB2CA11A22E9C900033D4A /* Supporting Files */,
+				EE6EFD6B1A4D0AD00001B50A /* HomeController.h */,
+				EE6EFD6C1A4D0AD00001B50A /* HomeController.m */,
+			);
+			path = "Hot Air Havoc";
+			sourceTree = "<group>";
+		};
+		EEBB2CA11A22E9C900033D4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8C7B641D24A15800506893 /* GameKit.framework */,
+				EE35A49D1D14DC970087196C /* greenbackground.png */,
+				EEB43AC11A5C585000D51DF8 /* gobutton.png */,
+				EE6EFD721A4D11C40001B50A /* ninja.png */,
+				EEBB2CD11A22F97B00033D4A /* hotair.png */,
+				EEBB2CCF1A22F96800033D4A /* dart.png */,
+				EEBB2CC91A22F59800033D4A /* colbysky.png */,
+				EEBB2CC71A22EA0500033D4A /* ball.png */,
+				EEBB2CA21A22E9C900033D4A /* Info.plist */,
+				EEBB2CA31A22E9C900033D4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEBB2CBA1A22E9C900033D4A /* Hot Air HavocTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB2CBD1A22E9C900033D4A /* Hot_Air_HavocTests.m */,
+				EEBB2CBB1A22E9C900033D4A /* Supporting Files */,
+			);
+			path = "Hot Air HavocTests";
+			sourceTree = "<group>";
+		};
+		EEBB2CBB1A22E9C900033D4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB2CBC1A22E9C900033D4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEBB2C9D1A22E9C900033D4A /* Hot Air Havoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBB2CC11A22E9C900033D4A /* Build configuration list for PBXNativeTarget "Hot Air Havoc" */;
+			buildPhases = (
+				EEBB2C9A1A22E9C900033D4A /* Sources */,
+				EEBB2C9B1A22E9C900033D4A /* Frameworks */,
+				EEBB2C9C1A22E9C900033D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hot Air Havoc";
+			productName = "Hot Air Havoc";
+			productReference = EEBB2C9E1A22E9C900033D4A /* Hot Air Havoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEBB2CB61A22E9C900033D4A /* Hot Air HavocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBB2CC41A22E9C900033D4A /* Build configuration list for PBXNativeTarget "Hot Air HavocTests" */;
+			buildPhases = (
+				EEBB2CB31A22E9C900033D4A /* Sources */,
+				EEBB2CB41A22E9C900033D4A /* Frameworks */,
+				EEBB2CB51A22E9C900033D4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEBB2CB91A22E9C900033D4A /* PBXTargetDependency */,
+			);
+			name = "Hot Air HavocTests";
+			productName = "Hot Air HavocTests";
+			productReference = EEBB2CB71A22E9C900033D4A /* Hot Air HavocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEBB2C961A22E9C900033D4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Tobin Technologies";
+				TargetAttributes = {
+					EEBB2C9D1A22E9C900033D4A = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = QVQ77B76RL;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					EEBB2CB61A22E9C900033D4A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EEBB2C9D1A22E9C900033D4A;
+					};
+				};
+			};
+			buildConfigurationList = EEBB2C991A22E9C900033D4A /* Build configuration list for PBXProject "Hot Air Havoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEBB2C951A22E9C900033D4A;
+			productRefGroup = EEBB2C9F1A22E9C900033D4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBB2C9D1A22E9C900033D4A /* Hot Air Havoc */,
+				EEBB2CB61A22E9C900033D4A /* Hot Air HavocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEBB2C9C1A22E9C900033D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6EFD731A4D11C40001B50A /* ninja.png in Resources */,
+				EEBB2CAD1A22E9C900033D4A /* Main.storyboard in Resources */,
+				EEBB2CB21A22E9C900033D4A /* LaunchScreen.xib in Resources */,
+				EEBB2CCA1A22F59800033D4A /* colbysky.png in Resources */,
+				EEBB2CD01A22F96800033D4A /* dart.png in Resources */,
+				EE35A49E1D14DC970087196C /* greenbackground.png in Resources */,
+				EEBB2CC81A22EA0500033D4A /* ball.png in Resources */,
+				EEBB2CAF1A22E9C900033D4A /* Images.xcassets in Resources */,
+				EEBB2CD21A22F97B00033D4A /* hotair.png in Resources */,
+				EEB43AC21A5C585000D51DF8 /* gobutton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBB2CB51A22E9C900033D4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEBB2C9A1A22E9C900033D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6EFD6D1A4D0AD00001B50A /* HomeController.m in Sources */,
+				EEBB2CAA1A22E9C900033D4A /* ViewController.m in Sources */,
+				EEBB2CA71A22E9C900033D4A /* AppDelegate.m in Sources */,
+				EEBB2CA41A22E9C900033D4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBB2CB31A22E9C900033D4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBB2CBE1A22E9C900033D4A /* Hot_Air_HavocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEBB2CB91A22E9C900033D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEBB2C9D1A22E9C900033D4A /* Hot Air Havoc */;
+			targetProxy = EEBB2CB81A22E9C900033D4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEBB2CAB1A22E9C900033D4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBB2CAC1A22E9C900033D4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBB2CB01A22E9C900033D4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBB2CB11A22E9C900033D4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEBB2CBF1A22E9C900033D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEBB2CC01A22E9C900033D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEBB2CC21A22E9C900033D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hot Air Havoc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEBB2CC31A22E9C900033D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Hot Air Havoc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EEBB2CC51A22E9C900033D4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hot Air HavocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot Air Havoc.app/Hot Air Havoc";
+			};
+			name = Debug;
+		};
+		EEBB2CC61A22E9C900033D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hot Air HavocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot Air Havoc.app/Hot Air Havoc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEBB2C991A22E9C900033D4A /* Build configuration list for PBXProject "Hot Air Havoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB2CBF1A22E9C900033D4A /* Debug */,
+				EEBB2CC01A22E9C900033D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBB2CC11A22E9C900033D4A /* Build configuration list for PBXNativeTarget "Hot Air Havoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB2CC21A22E9C900033D4A /* Debug */,
+				EEBB2CC31A22E9C900033D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBB2CC41A22E9C900033D4A /* Build configuration list for PBXNativeTarget "Hot Air HavocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB2CC51A22E9C900033D4A /* Debug */,
+				EEBB2CC61A22E9C900033D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEBB2C961A22E9C900033D4A /* Project object */;
+}
